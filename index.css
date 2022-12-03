@@ -14,6 +14,11 @@ body {
     color: #222
     padding: 0;
     background: #eae9e8;
+    font-family: 'Great Vibes', cursive;
+}
+
+main {
+    
 }
 
 .navbar-main {
@@ -100,11 +105,45 @@ body {
         border: 2px solid #eae9e8;
         border-radius: 50%;
 }
+
+.bus-name {
+    width:500px;
+    margin: 0 auto;
+    text-align: center;
+    color: #da4f39;
+    font-size: 30px;
+}
+
 .about-grid {
     display: grid;
     grid-template-columns: 50% 50%;
+
     
 }   
+
+.about-title {
+    width:500px;
+    margin: 0 auto;
+    text-align: center;
+    color: #2b4f25                                                                                                                                                                                          ;
+    font-size: 50px;
+}
+
+.hero-img {
+    box-sizing: border-box;
+    width: 650px;
+    height: 450px;
+    margin: auto;
+    border-radius: 16px;
+}
+
+.hero-par {
+    box-sizing: border-box;
+    width: 650px;
+    height: 450px;
+    margin: auto;
+    font-size: 20px;
+}
 
 .menu-grid-cont-top {
     display: grid;
@@ -116,6 +155,14 @@ body {
 
 }   
 
+.menu-grid-title {
+    width:500px;
+    margin: 0 auto;
+    text-align: center;
+    color: #da4f39;
+    font-size: 50px;
+}
+
 .menu-grid-cont-bot {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -125,6 +172,19 @@ body {
     margin-inline: auto;
 
 }   
+
+
+.pic-par {
+    font-family: 'Tapestry', cursive;
+}
+
+.contact-grid-title {
+    width:500px;
+    margin: 0 auto;
+    text-align: center;
+    color: #2b4f25;
+    font-size: 50px;
+}
 
 .contact-grid {
     display: grid;
@@ -146,4 +206,5 @@ body {
 .copy-grid {
     display: grid;
     grid-template-columns: 30% 70%;
+    font-family: 'Tapestry', cursive;
 }
