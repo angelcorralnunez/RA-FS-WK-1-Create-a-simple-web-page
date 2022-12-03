@@ -109,7 +109,7 @@ main {
 .about-grid {
     display: grid;
     grid-template-columns: 50% 50%;
-
+    padding-top: 50px;
     
 }   
 
@@ -144,6 +144,10 @@ main {
     
 }
 
+.grid-box {
+    
+}
+
 .menu-grid-cont-top {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -151,7 +155,7 @@ main {
     gap: 1.5rem;
     width: min(90%, 68.5rem);
     margin-inline: auto;
-
+    padding-top: 50px; 
 }   
 
 .menu-grid-title {
@@ -170,17 +174,21 @@ main {
     gap: 1.5rem;
     width: min(90%, 68.5rem);
     margin-inline: auto;
-
 }   
 
+.img-row {
+    border-radius: 20px;
+}
+
 h3 {
+    padding-top: 5px; 
+    text-align: center;
     font-size: 30px;
-    border: 2px solid blue;
 }
 
 #menu-par {
-    padding: 20px;
-    border: 2px solid red;
+    margin: auto;
+    padding-bottom: 50px;
 }
 
 .pic-par {
