@@ -45,7 +45,6 @@ main {
     .top-nav-logo {
         height:54px;
         width: 170px;
-        
         border: 2px solid #da4f39;
         border-radius: 12px;
     }
@@ -100,7 +99,8 @@ main {
 
 .bus-name {
     width:500px;
-    margin: 0 auto;
+    margin: auto;
+    padding: 15px 0;
     text-align: center;
     color: #da4f39;
     font-size: 30px;
@@ -116,9 +116,15 @@ main {
 .about-title {
     width:500px;
     margin: 0 auto;
+    padding-top: 40px; 
     text-align: center;
     color: #2b4f25                                                                                                                                                                                          ;
     font-size: 50px;
+
+}
+
+#about-par {
+    padding: 0 15px 15px 15px;
 }
 
 .hero-img {
@@ -135,6 +141,7 @@ main {
     height: 450px;
     margin: auto;
     font-size: 20px;
+    
 }
 
 .menu-grid-cont-top {
@@ -168,6 +175,7 @@ main {
 
 .pic-par {
     font-family: 'Tapestry', cursive;
+    
 }
 
 .contact-grid-title {
