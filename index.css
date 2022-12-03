@@ -148,7 +148,7 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto);
-    gap: 1.75rem;
+    gap: 1.5rem;
     width: min(90%, 68.5rem);
     margin-inline: auto;
 
@@ -157,6 +157,7 @@ main {
 .menu-grid-title {
     width:500px;
     margin: 0 auto;
+    padding-top: 50px; 
     text-align: center;
     color: #da4f39;
     font-size: 50px;
@@ -166,12 +167,21 @@ main {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, auto);
-    gap: 1.75rem;
+    gap: 1.5rem;
     width: min(90%, 68.5rem);
     margin-inline: auto;
 
 }   
 
+h3 {
+    font-size: 30px;
+    border: 2px solid blue;
+}
+
+#menu-par {
+    padding: 20px;
+    border: 2px solid red;
+}
 
 .pic-par {
     font-family: 'Tapestry', cursive;
