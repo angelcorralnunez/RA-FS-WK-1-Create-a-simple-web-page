@@ -128,12 +128,15 @@ body {
 
 .contact-grid {
     display: grid;
-    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 50% 50%;
 }
+
 .footer-cont {
     display: grid;
     grid-template-rows: 50% 50%;
 }
+
+
 
 .footer-grid {
     display: grid;
