@@ -13,7 +13,7 @@ body {
     font-size: 14px;
     color: #222
     padding: 0;
-    background: #fff;
+    background: #eae9e8;
 }
 
 .navbar-main {
@@ -100,5 +100,47 @@ body {
         border: 2px solid #eae9e8;
         border-radius: 50%;
 }
- 
-        
+.about-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}   
+
+.menu-grid-cont-top {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 1.75rem;
+    width: min(90%, 68.5rem);
+    margin-inline: auto;
+
+}   
+
+.menu-grid-cont-bot {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 1.75rem;
+    width: min(90%, 68.5rem);
+    margin-inline: auto;
+
+}   
+
+.contact-grid {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+.footer-cont {
+    display: grid;
+    grid-template-rows: 50% 50%;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 20% 40% 10% 10% 10% 10%;
+}
+
+.copy-grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
