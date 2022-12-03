@@ -209,12 +209,38 @@ h3 {
     grid-template-columns: 50% 50%;
 }
 
+.contact-cont {
+    margin: auto;
+    padding: 50px;
+}
+
+.contact-title {
+    width:500px;
+    margin: 0 auto; 
+    text-align: center;
+    color: #da4f39;
+    font-size: 50px;
+}
+
+.contact-par {
+    margin: 0 auto;
+    padding-top: 20px; 
+    text-align: center;
+    font-size: 25px;
+}
+
+.contact-img {
+    box-sizing: border-box;
+    width: 550px;
+    height: 350px;
+    margin: auto;
+    border-radius: 20px;
+}
+
 .footer-cont {
     display: grid;
     grid-template-rows: 50% 50%;
 }
-
-
 
 .footer-grid {
     display: grid;
