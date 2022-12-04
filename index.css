@@ -234,6 +234,8 @@ h3 {
     width: 550px;
     height: 350px;
     margin: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
     border-radius: 20px;
 }
 
@@ -244,11 +246,56 @@ h3 {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 20% 40% 10% 10% 10% 10%;
+    grid-template-columns: 40% 40% 5% 5% 5% 5%;
+    margin: 5px;
+    padding-top: 4px;
+    flex-shrink: 0;
+    box-sizing:border-box;
+    background-color: #2b4f25;
+    color: #eae9e8;
+}
+
+.logo-foot {
+    height:54px;
+    width: 170px;
+    border: 2px solid #da4f39;
+    border-radius: 12px;
+}
+
+.icon-fb {
+    margin-top: 15px;
+    padding: 0 0 0 5px;
+}
+
+.icon-insta {
+    margin-top: 15px;
+    padding: 0 0 0 5px;
+}
+
+.icon-twit {
+    margin-top: 15px;
+    padding: 0 0 0 5px; 
+}
+
+.icon-pin {
+    margin-top: 15px;
+    padding: 0 0 0 5px;
 }
 
 .copy-grid {
     display: grid;
     grid-template-columns: 30% 70%;
+    margin: 5px;
     font-family: 'Tapestry', cursive;
+}
+
+.icon-copy {
+    margin-top: 22px;
+    padding: 0 0 20px 450px;
+}
+
+.copyright {
+    margin-top: 2px;
+    margin-right: 20px;
+    padding: 20px 0 0 0;
 }
