@@ -116,7 +116,7 @@ main {
 .about-title {
     width:500px;
     margin: 0 auto;
-    padding-top: 40px; 
+    padding-top: 5px; 
     text-align: center;
     color: #2b4f25                                                                                                                                                                                          ;
     font-size: 50px;
@@ -124,6 +124,8 @@ main {
 }
 
 #about-par {
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 0 15px 15px 15px;
 }
 
@@ -142,6 +144,21 @@ main {
     margin: auto;
     font-size: 20px;
     
+}
+
+.btn-box {
+    height: 60px;
+}
+
+.order-btn {
+    background: #da4f39;
+    color: #eae9e8;
+    height: 50px;
+    border: 5px solid #2b4f25;
+    border-radius: 12px;
+    font-family: 'Tapestry', cursive;
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 .grid-box {
