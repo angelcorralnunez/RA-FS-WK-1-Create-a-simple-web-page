@@ -17,10 +17,6 @@ body {
     font-family: 'Great Vibes', cursive;
 }
 
-main {
-    
-}
-
 .navbar-main {
     display: flex;
     align-items:center;
@@ -242,7 +238,7 @@ main div h3 a {
 
 .contact-cont {
     margin: auto;
-    padding: 50px;
+    padding: 0 50px 50px 50px;
 }
 
 .contact-title {
